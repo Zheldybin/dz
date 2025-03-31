@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  background-color: rgb(223, 223, 223);
+}
+
+a {
+  display: block;
+  color: inherit;
+  padding-top: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container_info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  align-items: center;
+}
+
+.descr-info {
+  display: flex;
+  gap: 50px;
+  margin-left: 50px;
+  justify-content: center;
+}
+
+.container_info p {
+  margin-top: 10px;
+}
+
+.photo {
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.7s transform ease-out;
+}
+
+.photo img:hover {
+  transform: scale(1.2);
+}
+
+.btn_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn_container button {
+  cursor: pointer;
+  width: 250px;
+  padding: 5px;
+}
+
+.link_wiki {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn-1 {
+  color: red;
+  background-color: inherit;
+  border: 2px solid black;
+  display: block;
+  max-width: 200px;
+  text-decoration: none;
+  padding: 15px 50px;
+  text-align: center;
+}
+
+.btn-2 {
+  color: rgb(0, 0, 0);
+  background-color: inherit;
+  border: 2px solid rgb(255, 0, 0);
+  display: block;
+  text-decoration: none;
+  padding: 15px 50px;
+  text-align: center;
+}
+
+.btn-1:hover {
+  color: rgb(0, 0, 0);
+  background-color: inherit;
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.btn-2:hover {
+  color: rgb(255, 0, 0);
+  background-color: inherit;
+  border: 2px solid rgb(0, 0, 0);
+}
+
